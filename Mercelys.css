@@ -1,0 +1,253 @@
+.main-container{
+
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    line-height: 1.7em;
+    font-weight: 500;
+
+
+}
+
+.header{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+}
+.header-logo{
+    margin-top: 30px;
+    margin-left: 220px;
+position: absolute;
+    border-color: white;
+    
+
+}
+.header-navigation{
+width: 100%;
+height: 100px;
+background-color: #ffcc32;
+text-align: right;
+}
+
+
+.home-menu{
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 200px;
+    padding-top: 20px;
+   
+   } 
+ .header-navigation li{
+    margin: 10px;
+    display: inline-block;
+}
+.header-navigation a{
+    color: #550087;
+    text-decoration: none;
+    display: block;
+   
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;   
+}
+.header-text{
+    padding-top:50px ;
+}
+.mercelys{
+    color: #662d91;
+    font-family:'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: bold;
+}
+.images{
+    display: flex;
+    padding-left: 250px;  
+}
+.div-text-fun{
+    padding: 0 250px ;
+}
+.fun-dances p{
+
+    color: #662d91;
+   text-align: center;
+   line-height: 30px;
+   font-weight: 550;
+   font-family:'Quicksand', Helvetica, Arial, Lucida, sans-serif ;
+}
+.our-journey{
+   
+    padding-top: 50px;
+background-color:#ffcc32 ;
+    width: 100%;
+    height: 950px;
+    text-overflow: none;
+}
+.head-ourjourney{
+    margin-left: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #662d91;
+    font-weight: bold;
+}
+.ourjourney-first-para{
+    text-align: left;
+    margin-right: 220px;
+    margin-left: 220px;
+    font-size: 19px;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    color: #662d91;
+    line-height: 30px;
+}
+.journey-content-up{
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.journey-content-dwn{
+    margin-top: 25px;
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.paragph{
+    
+    margin-right:10px;
+
+    height: 250px;
+text-align: left;
+font-size: 19px;
+color: #662d91;
+font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+}
+.choice{
+    padding-left: 220px;
+    padding-right: 220px;
+    color: #662d91;
+    font-family:'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+.options{ 
+    background-color: #662d91;
+    padding-top: .5px;
+    padding-left: .5px;
+    text-align: left;
+    position: relative;
+}
+.facilities{
+    background: #ffcc32;
+    padding-left: 220px;
+    padding-right: 220px;
+    
+}
+.sub-facilities{
+
+    display:flex;
+    align-items: flex-end;
+}
+.sub-para{
+
+    color: #662d91;
+font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+.iframe{
+
+    padding-right: 90px;
+}
+
+.head-facilities{
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #662d91;
+    font-weight: bold;
+}
+.ad{
+    padding-left: 220px;
+}
+.iframe2{
+    width: 25%;
+}
+.form-main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-bottom: 1px;
+    width: 90%;
+}
+.contact{
+    margin-bottom: 10px;
+     position:relative;
+}
+input, textarea{
+    width: 100%;
+    padding-top: 20px;
+
+border:1px solid #fff;
+color:#ffffff;
+font-size: 15px;
+}
+label{
+    margin-bottom:30px;
+    height:25%;
+    position:non;
+    z-index: 1;
+    padding: 1px;
+    color: #938989;
+    cursor: text;
+   
+}
+button{
+    padding: 2px 0 ;
+    font-size: 20px;
+    color: #3613d4;
+    outline:blue;
+    background: transparent;
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 93%;
+}
+input:focus~label{
+    top: -35px;
+    font-size:14px;
+}
+.raw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.raw .contact{
+    flex-basis: 48%;
+}
+
+.call{
+    padding: 25px 50px;
+}
+footer{
+    background-color: #662d91;
+    width: 100%;
+    height: 250px;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.footer-text{
+
+    
+    color: #fff;
+}
